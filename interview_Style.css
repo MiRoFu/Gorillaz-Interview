@@ -1,0 +1,62 @@
+body {
+    font-family: Helvetica;
+        background-color: alicebluebackground: rgba(8,94,242,1);
+background: -moz-linear-gradient(left, rgba(8,94,242,1) 0%, rgba(7,209,88,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(8,94,242,1)), color-stop(100%, rgba(7,209,88,1)));
+background: -webkit-linear-gradient(left, rgba(8,94,242,1) 0%, rgba(7,209,88,1) 100%);
+background: -o-linear-gradient(left, rgba(8,94,242,1) 0%, rgba(7,209,88,1) 100%);
+background: -ms-linear-gradient(left, rgba(8,94,242,1) 0%, rgba(7,209,88,1) 100%);
+background: linear-gradient(to right, rgba(8,94,242,1) 0%, rgba(7,209,88,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#085ef2', endColorstr='#07d158', GradientType=1 );
+
+}
+
+
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+#IMG1 {
+    height: 50vw;
+    width: auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Question {
+    border: 1px solid black;
+    height: 60px;
+    font-size: 24px;
+    background-color: white;
+    position: sticky;
+    top: 0vw;
+    
+}
+
+.TwoD {
+    width:50%;
+    font-size: 16px;
+    color: white;
+}
+
+.Murdoc {
+    width: 50%;
+    margin-left: 50%;
+   font-size: 16px; 
+    color: white;
+}
+
+#IMG2 {
+    position: sticky;
+    top: 0vw;
+    height: 50vw;
+    width: auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
