@@ -1,5 +1,4 @@
 body {
-    font-family: Helvetica;
         background-color: alicebluebackground: rgba(8,94,242,1);
 background: -moz-linear-gradient(left, rgba(8,94,242,1) 0%, rgba(7,209,88,1) 100%);
 background: -webkit-gradient(left top, right top, color-stop(0%, rgba(8,94,242,1)), color-stop(100%, rgba(7,209,88,1)));
@@ -8,16 +7,19 @@ background: -o-linear-gradient(left, rgba(8,94,242,1) 0%, rgba(7,209,88,1) 100%)
 background: -ms-linear-gradient(left, rgba(8,94,242,1) 0%, rgba(7,209,88,1) 100%);
 background: linear-gradient(to right, rgba(8,94,242,1) 0%, rgba(7,209,88,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#085ef2', endColorstr='#07d158', GradientType=1 );
-
+    margin: 0;
 }
 
 
 
 h1{
-    font-size: 48px;
+   text-align: center;
+    padding: 2vw;
+    font-family: 'Kanit', sans-serif;
+    font-size: 3vw;
     font-weight: bold;
-    text-align: center;
     color: white;
+    background-color: rgba(0, 255, 255, 0.4);
 }
 
 #IMG1 {
@@ -29,30 +31,37 @@ h1{
 }
 
 .Question {
+    padding: 1vw;
+    height:90px;
+    font-family: 'Kanit', sans-serif;
     border: 1px solid black;
-    height: 60px;
-    font-size: 24px;
+    font-size: 2vw;
     background-color: white;
     position: sticky;
-    top: 0vw;
-    text-align: center;
-    
+    top: 0vw; 
 }
 
 .TwoD {
+    padding: 1vw 0vw 1vw 1vw;
+    font-family: 'Nunito', sans-serif;
     width:50%;
-    font-size: 16px;
+    font-size: 1.2vw;
     color: white;
+    background-color: rgba(0, 255, 235, 0.3);
 }
 
 .Murdoc {
-    width: 50%;
+    padding: 1vw 0vw 1vw 1vw;
+    font-family: 'Playfair Display', serif;
+    width: 49%;
     margin-left: 50%;
-   font-size: 16px; 
+   font-size: 1.2vw; 
     color: white;
+    background-color: rgba(255, 255, 100, 0.3);
+ 
 }
 
-#IMG2 {
+.IMG2 {
     position: sticky;
     top: 0vw;
     height: 50vw;
@@ -60,4 +69,18 @@ h1{
     display:block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#Bottom-Block {
+   
+    border: 0px solid;
+    height: 100vw;
+    background-color: transparent;
+}
+
+#gallery {
+    top: 0;
+    position: sticky;
+    width: 100vw;
+    overflow-x: hidden;
 }
